@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseTest.cs" />
+    <Compile Include="POM\excelreadwrite.cs" />
     <Compile Include="POM\ToolsQASampleFormPom.cs" />
     <Compile Include="TestCases\Executions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
