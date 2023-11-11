@@ -19,6 +19,7 @@ namespace WebUIAutomation
         public ToolsQASampleFormPom(IWebDriver driver)
         {
             this.driver = driver;
+            PageFactory.InitElements(driver, this);
             this.Wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
             Wait.Until(ExpectedConditions.UrlContains("https://demoqa.com/automation-practice-form"));
         }
